@@ -11,6 +11,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 •	A Global Linear Method for Camera Pose Registration (ICCV 2013)<br>
 ### •	Incremental SfM<br>
 The approach repeatedly perform bundle adjustment when new images (typically one image) are added to the existing model.<br>
+
 •	Structure-from-Motion Revisited (CVPR 2016) - COLMAP<br>
 •	Towards linear-time incremental structure from motion (3DV 2013) - VisualSFM<br>
 •	Building Rome on a cloudless day (ECCV 2010) [Paper](http://cs.unc.edu/~jmf/publications/Frahm_et_al_ReconstructionFromPhotoCollection.pdf) <br>
