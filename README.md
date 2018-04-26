@@ -13,7 +13,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 The approach repeatedly perform bundle adjustment when new images (typically one image) are added to the existing model.<br>
 •	Structure-from-Motion Revisited (CVPR 2016) - COLMAP<br>
 •	Towards linear-time incremental structure from motion (3DV 2013) - VisualSFM<br>
-•	Building Rome on a cloudless day (ECCV 2010)<br>
-•	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2016) - Bundler<br>
+•	Building Rome on a cloudless day (ECCV 2010) [Paper](http://cs.unc.edu/~jmf/publications/Frahm_et_al_ReconstructionFromPhotoCollection.pdf) <br>
+•	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2006) - Bundler<br>
 ### •	Hierarchical SfM
 ### •	Hybrid SfM
