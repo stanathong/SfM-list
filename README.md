@@ -5,6 +5,7 @@
 While Incremental SfM approaches repeatedly executes bundle adjustment whenever a new image is added to the model, Global SfMs usually calls the bundle adjustment once in which all image parameters are optimised at the same time.<br>
 
 •	Global Structure-from-Motion by Similarity Averaging (ICCV 2015) [Paper](http://openaccess.thecvf.com/content_iccv_2015/papers/Cui_Global_Structure-From-Motion_by_ICCV_2015_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Link](https://zhpcui.github.io/projects/ICCV2015_SfM/index.html)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Implementation may have been included in [OpenMVG](https://github.com/openMVG/openMVG) as found in this [issue](https://github.com/openMVG/openMVG/issues/1241). <br>
 •	Optimizing the viewing graph for structure-from-motion (ICCV 2015) [Paper](http://openaccess.thecvf.com/content_iccv_2015/papers/Sweeney_Optimizing_the_Viewing_ICCV_2015_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[TheiaSfM-Github](https://github.com/sweeneychris/TheiaSfM)&nbsp;&nbsp;&nbsp;&nbsp;[Theia-Library-Page](http://www.theia-sfm.org/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	_Note:_ Theia offers the ability to perform either incremental and global SfM.<br>
 •	Robust global translations with 1dsfm. (ECCV 2014) [Paper](http://www.cs.cornell.edu/projects/1dsfm/docs/1DSfM_ECCV14.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Link](http://www.cs.cornell.edu/projects/1dsfm/)<br>
