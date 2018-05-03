@@ -6,6 +6,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 
 •	Global Structure-from-Motion by Similarity Averaging (ICCV 2015) [Paper](http://openaccess.thecvf.com/content_iccv_2015/papers/Cui_Global_Structure-From-Motion_by_ICCV_2015_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Link](https://zhpcui.github.io/projects/ICCV2015_SfM/index.html)<br>
 •	Optimizing the viewing graph for structure-from-motion (ICCV 2015) [Paper](http://openaccess.thecvf.com/content_iccv_2015/papers/Sweeney_Optimizing_the_Viewing_ICCV_2015_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[TheiaSfM-Github](https://github.com/sweeneychris/TheiaSfM)&nbsp;&nbsp;&nbsp;&nbsp;[Theia-Library-Page](http://www.theia-sfm.org/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	_Note:_ Theia offers the ability to perform either incremental and global SfM.
 •	Robust global translations with 1dsfm. (ECCV 2014) [Paper](http://www.cs.cornell.edu/projects/1dsfm/docs/1DSfM_ECCV14.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Link](http://www.cs.cornell.edu/projects/1dsfm/)<br>
 •	Global fusion of relative motions for robust, accurate and scalable structure from motion. (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	A new robust global SfM for unordered images is proposed.<br>
