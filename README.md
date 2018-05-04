@@ -11,7 +11,8 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	__Note:__ __TheiaSfM__ offers the ability to perform either incremental and global SfM.<br>
 •	Robust global translations with 1dsfm. (ECCV 2014) [Paper](http://www.cs.cornell.edu/projects/1dsfm/docs/1DSfM_ECCV14.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Link](http://www.cs.cornell.edu/projects/1dsfm/)<br>
 •	Global fusion of relative motions for robust, accurate and scalable structure from motion. (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	A new robust global SfM for unordered images is proposed.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	In this paper, a new robust global SfM for unordered images is proposed.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	[OpenMVG](https://github.com/openMVG/openMVG)'s main global SfM is based on this paper, as can be seen in [openMVG_main_GlobalSfM](http://openmvg.readthedocs.io/en/latest/software/SfM/GlobalSfM/).<br>
 •	A Global Linear Method for Camera Pose Registration (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Jiang_A_Global_Linear_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Part of this work has been implemented in [TheiaSfM](https://github.com/sweeneychris/TheiaSfM), see this [file](https://github.com/sweeneychris/TheiaSfM/blob/master/src/theia/sfm/global_pose_estimation/linear_position_estimator.h).<br>
 
