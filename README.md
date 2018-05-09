@@ -23,5 +23,8 @@ The approach repeatedly perform bundle adjustment when new images (typically one
 •	Towards linear-time incremental structure from motion (3DV 2013) [Paper](http://ccwu.me/vsfm/vsfm.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[VisualSFM](http://www.ccwu.me/vsfm/)<br>
 •	Building Rome on a cloudless day (ECCV 2010) [Paper](http://cs.unc.edu/~jmf/publications/Frahm_et_al_ReconstructionFromPhotoCollection.pdf) <br>
 •	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2006) - Bundler<br>
+•	OpenSfM : Open Source Structure from Motion - [Github](https://github.com/mapillary/OpenSfM)&nbsp;&nbsp;&nbsp;&nbsp;[The Mapillary Blog](https://blog.mapillary.com/update/2016/10/31/denser-3d-point-clouds-in-opensfm.html)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Documentation can be found [here](https://media.readthedocs.org/pdf/opensfm/latest/opensfm.pdf).<br>
+
 ### •	Hierarchical SfM
 ### •	Hybrid SfM
