@@ -22,7 +22,7 @@ The approach repeatedly perform bundle adjustment when new images (typically one
 •	Structure-from-Motion Revisited (CVPR 2016) [Paper](http://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[COLMAP-Github](https://github.com/colmap/colmap)&nbsp;&nbsp;&nbsp;&nbsp;[COLMAP-Page](https://colmap.github.io/)<br>
 •	Towards linear-time incremental structure from motion (3DV 2013) [Paper](http://ccwu.me/vsfm/vsfm.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[VisualSFM](http://www.ccwu.me/vsfm/)<br>
 •	Building Rome on a cloudless day (ECCV 2010) [Paper](http://cs.unc.edu/~jmf/publications/Frahm_et_al_ReconstructionFromPhotoCollection.pdf) <br>
-•	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2006) - Bundler<br>
+•	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2006) [Paper](http://phototour.cs.washington.edu/Photo_Tourism.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Bundler-Github](https://github.com/snavely/bundler_sfm)&nbsp;&nbsp;&nbsp;&nbsp;[Project Page](http://www.cs.cornell.edu/~snavely/bundler/)<br>
 •	OpenSfM : Open Source Structure from Motion - [Github](https://github.com/mapillary/OpenSfM)&nbsp;&nbsp;&nbsp;&nbsp;[OpenSfM Page](http://opensfm.readthedocs.io/en/latest/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Documentation in _PDF_ can be found [here](https://media.readthedocs.org/pdf/opensfm/latest/opensfm.pdf).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	The Mapillary Blog is [here](https://blog.mapillary.com/update/2016/10/31/denser-3d-point-clouds-in-opensfm.html).<br>
