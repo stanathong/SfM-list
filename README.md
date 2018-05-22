@@ -27,6 +27,7 @@ The approach repeatedly perform bundle adjustment when new images (typically one
 •	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2006) [Paper](http://phototour.cs.washington.edu/Photo_Tourism.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Bundler-Github](https://github.com/snavely/bundler_sfm)&nbsp;&nbsp;&nbsp;&nbsp;[Project Page](http://www.cs.cornell.edu/~snavely/bundler/)<br>
 •	OpenSfM : Open Source Structure from Motion [OpenSfM-Github](https://github.com/mapillary/OpenSfM)&nbsp;&nbsp;&nbsp;&nbsp;[OpenSfM Page](http://opensfm.readthedocs.io/en/latest/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Documentation in _PDF_ can be found [here](https://media.readthedocs.org/pdf/opensfm/latest/opensfm.pdf).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Incremental SfM pipeline implementation in OpenSfM is discussed [here](http://opensfm.readthedocs.io/en/latest/reconstruction_module.html).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	The Mapillary Blog is [here](https://blog.mapillary.com/update/2016/10/31/denser-3d-point-clouds-in-opensfm.html).<br>
 
 ### •	Hierarchical SfM
