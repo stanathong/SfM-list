@@ -13,7 +13,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 •	Global fusion of relative motions for robust, accurate and scalable structure from motion. (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	In this paper, a new robust global SfM for unordered images is proposed.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	[OpenMVG](https://github.com/openMVG/openMVG)'s main global SfM is based on this paper, as can be seen in [openMVG_main_GlobalSfM](http://openmvg.readthedocs.io/en/latest/software/SfM/GlobalSfM/).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[OpenMVG](https://github.com/openMVG/openMVG) reads GPS data from exif and uses them in SfM. However, our trial on a sequence images tagged with GPS (converted to __UTM__) shows that the optimised camera poses are not aligned with the world reference frame. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[OpenMVG](https://github.com/openMVG/openMVG) reads GPS data from exif and uses them in the pose optimisation process. (Using GPS is not a default option) <br>
 •	A Global Linear Method for Camera Pose Registration (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Jiang_A_Global_Linear_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Part of this work has been implemented in [TheiaSfM](https://github.com/sweeneychris/TheiaSfM), see this [file](https://github.com/sweeneychris/TheiaSfM/blob/master/src/theia/sfm/global_pose_estimation/linear_position_estimator.h).<br>
 
