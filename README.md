@@ -13,7 +13,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 •	Global fusion of relative motions for robust, accurate and scalable structure from motion. (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	In this paper, a new robust global SfM for unordered images is proposed.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	[OpenMVG](https://github.com/openMVG/openMVG)'s main global SfM is based on this paper, as can be seen in [openMVG_main_GlobalSfM](http://openmvg.readthedocs.io/en/latest/software/SfM/GlobalSfM/).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[OpenMVG](https://github.com/openMVG/openMVG) reads GPS data from exif and uses them in SfM. However, our trial on a sequence images tagged with GPS (converted to __UTM__) shows that the optimised camera poses are not align with the world reference frame. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[OpenMVG](https://github.com/openMVG/openMVG) reads GPS data from exif and uses them in SfM. However, our trial on a sequence images tagged with GPS (converted to __UTM__) shows that the optimised camera poses are not aligned with the world reference frame. <br>
 •	A Global Linear Method for Camera Pose Registration (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Jiang_A_Global_Linear_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Part of this work has been implemented in [TheiaSfM](https://github.com/sweeneychris/TheiaSfM), see this [file](https://github.com/sweeneychris/TheiaSfM/blob/master/src/theia/sfm/global_pose_estimation/linear_position_estimator.h).<br>
 
@@ -21,7 +21,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 The approach repeatedly perform bundle adjustment when new images (typically one image) are added to the existing model.<br>
 
 •	Structure-from-Motion Revisited (CVPR 2016) [Paper](http://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[COLMAP-Github](https://github.com/colmap/colmap)&nbsp;&nbsp;&nbsp;&nbsp;[COLMAP-Page](https://colmap.github.io/)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[COLMAP](https://github.com/colmap/colmap) does not use GPS prior in their pose optimisation process, referred to this [question](https://github.com/colmap/colmap/issues/98) (date April 2017). <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[COLMAP](https://github.com/colmap/colmap) does not use GPS priors in their pose optimisation process, referred to this [question](https://github.com/colmap/colmap/issues/98) _(April 2017)_. <br>
 •	Towards linear-time incremental structure from motion (3DV 2013) [Paper](http://ccwu.me/vsfm/vsfm.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[VisualSFM](http://www.ccwu.me/vsfm/)<br>
 •	Adaptive structure from motion with a contrario model estimation (ACCV 2012) [Paper](http://imagine.enpc.fr/~marletr/publi/ACCV-2012-Moulon-et-al.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	[OpenMVG](https://github.com/openMVG/openMVG)'s implementation of incremental SfM is based on this paper.<br>
