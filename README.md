@@ -27,6 +27,7 @@ The approach repeatedly perform bundle adjustment when new images (typically one
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	[OpenMVG](https://github.com/openMVG/openMVG)'s implementation of incremental SfM is based on this paper.<br>
 •	Building Rome on a cloudless day (ECCV 2010) [Paper](http://cs.unc.edu/~jmf/publications/Frahm_et_al_ReconstructionFromPhotoCollection.pdf) <br>
 •	Photo Tourism - Exploring Photo Collections in 3D (SIGGRAPH 2006) [Paper](http://phototour.cs.washington.edu/Photo_Tourism.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Bundler-Github](https://github.com/snavely/bundler_sfm)&nbsp;&nbsp;&nbsp;&nbsp;[Project Page](http://www.cs.cornell.edu/~snavely/bundler/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• __Personal Note:__	[Bundler-Github](https://github.com/snavely/bundler_sfm) does not use GPS priors in their pose optimisation process, referred to this [question](https://github.com/snavely/bundler_sfm/issues/38) _(September 2016)_. <br>
 •	OpenSfM : Open Source Structure from Motion [OpenSfM-Github](https://github.com/mapillary/OpenSfM)&nbsp;&nbsp;&nbsp;&nbsp;[OpenSfM Page](http://opensfm.readthedocs.io/en/latest/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Documentation in _PDF_ can be found [here](https://media.readthedocs.org/pdf/opensfm/latest/opensfm.pdf).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Incremental SfM pipeline implementation in OpenSfM is discussed [here](http://opensfm.readthedocs.io/en/latest/reconstruction_module.html).<br>
