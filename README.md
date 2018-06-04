@@ -33,6 +33,7 @@ The approach repeatedly perform bundle adjustment when new images (typically one
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Documentation in _PDF_ can be found [here](https://media.readthedocs.org/pdf/opensfm/latest/opensfm.pdf).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Incremental SfM pipeline implementation in OpenSfM is discussed [here](http://opensfm.readthedocs.io/en/latest/reconstruction_module.html).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	The Mapillary Blog is [here](https://blog.mapillary.com/update/2016/10/31/denser-3d-point-clouds-in-opensfm.html).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _Note on Georeferencing:_	[OpenSfM](https://github.com/mapillary/OpenSfM) can be configured to use GPS data in the image exif as pose prior in the optimisation process. <br>
 
 ### •	Hybrid SfM
 A combination approach of incremental SfM and global SfM.<br>
