@@ -34,5 +34,9 @@ The approach repeatedly perform bundle adjustment when new images (typically one
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Incremental SfM pipeline implementation in OpenSfM is discussed [here](http://opensfm.readthedocs.io/en/latest/reconstruction_module.html).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	The Mapillary Blog is [here](https://blog.mapillary.com/update/2016/10/31/denser-3d-point-clouds-in-opensfm.html).<br>
 
-### •	Hierarchical SfM
 ### •	Hybrid SfM
+A combination approach of incremental SfM and global SfM.<br>
+
+•	HSfM: Hybrid Structure-from-Motion (CVPR 2017) [Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Cui_HSfM_Hybrid_Structure-from-Motion_CVPR_2017_paper.pdf)<br>
+
+### •	Hierarchical SfM
