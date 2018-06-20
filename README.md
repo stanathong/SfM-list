@@ -43,6 +43,6 @@ A combination approach of incremental SfM and global SfM.<br>
 <br>
 __Not include__<br>
 •	Hybrid camera pose estimation (CVPR 2018) [Paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Camposeco_Hybrid_Camera_Pose_CVPR_2018_paper.html)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Although the paper is named with _hybrid_, the work does not involves the combination of incremental and global but deals with the combination of solving poses from 2D-3D correspondences and 2D-2D correspondences.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Although the paper is named with _hybrid_, the work does not involve the combination of incremental and global but deals with the combination of solving poses from 2D-3D correspondences and 2D-2D correspondences.<br>
 
 ### •	Hierarchical SfM
