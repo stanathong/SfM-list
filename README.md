@@ -16,6 +16,7 @@ While Incremental SfM approaches repeatedly executes bundle adjustment whenever 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• _Note on Georeferencing:_	[OpenMVG](https://github.com/openMVG/openMVG) reads GPS data from exif and uses them in the pose optimisation process. (Using GPS is not a default option) <br>
 •	A Global Linear Method for Camera Pose Registration (ICCV 2013) [Paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Jiang_A_Global_Linear_2013_ICCV_paper.pdf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Part of this work has been implemented in [TheiaSfM](https://github.com/sweeneychris/TheiaSfM), see this [file](https://github.com/sweeneychris/TheiaSfM/blob/master/src/theia/sfm/global_pose_estimation/linear_position_estimator.h).<br>
+•	Discrete-continuous optimization for large-scale structure from motion (CVPR 2011) [Paper](https://www.cs.cornell.edu/~snavely/publications/disco_cvpr11.pdf)&nbsp;&nbsp;&nbsp;&nbsp;[Project-Page](http://vision.soic.indiana.edu/projects/disco/)<br>
 
 ### •	Incremental SfM<br>
 The approach repeatedly perform bundle adjustment when new images (typically one image) are added to the existing model.<br>
